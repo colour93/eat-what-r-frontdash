@@ -1,0 +1,25 @@
+:root {
+    --page-title: rgba(0,0,0,.6);
+}
+
+body {
+    margin: 0;
+    font-weight: 300;
+    color: #3d464c;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+.page-title {
+    margin: 40px 0 20px 0;
+    font-size: 36px;
+    color: var(--page-title);
+}
+
+p {
+    line-height: 1.6;
+    margin: 0;
+}
